@@ -18,7 +18,7 @@ jobs:
 
       - name: Finish building
         run: echo "Build completed successfully"
-deploy:
+  deploy:
     runs-on: ubuntu-latest
     needs: [build-and-push]
     strategy:
